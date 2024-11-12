@@ -30,7 +30,7 @@ pre .pln {
 }
 /* plaintext - white */
 pre .tag {
-  color: #89bdff;
+  color: #89bdff; 
 }
 /* html/xml tag    - light blue */
 pre .atn {

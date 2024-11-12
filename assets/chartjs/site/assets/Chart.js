@@ -18,7 +18,7 @@ var Chart = function(context){
 	
 	var animationOptions = {
 		linear : function (t){
-			return t;
+			return t; 
 		},
 		easeInQuad: function (t) {
 			return t*t;

@@ -10,7 +10,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ::selection { background-color: #E13300; color: white; }
 ::-moz-selection { background-color: #E13300; color: white; }
 
-body {
+body { 
 	background-color: #fff;
 	margin: 40px;
 	font: 13px/20px normal Helvetica, Arial, sans-serif;

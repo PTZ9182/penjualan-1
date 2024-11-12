@@ -10,7 +10,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | error_reporting is disabled, the backtrace will not display, regardless
 | of this setting
 |
-*/
+*/ 
 defined('SHOW_DEBUG_BACKTRACE') OR define('SHOW_DEBUG_BACKTRACE', TRUE);
 
 /*

@@ -17,7 +17,7 @@ var Chart = function(context){
 	//http://www.robertpenner.com/easing/
 	
 	var animationOptions = {
-		linear : function (t){
+		linear : function (t){ 
 			return t;
 		},
 		easeInQuad: function (t) {

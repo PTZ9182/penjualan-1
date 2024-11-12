@@ -9,7 +9,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <p>Type: <?php echo get_class($exception); ?></p>
 <p>Message: <?php echo $message; ?></p>
 <p>Filename: <?php echo $exception->getFile(); ?></p>
-<p>Line Number: <?php echo $exception->getLine(); ?></p>
+<p>Line Number: <?php echo $exception->getLine(); ?></p> 
 
 <?php if (defined('SHOW_DEBUG_BACKTRACE') && SHOW_DEBUG_BACKTRACE === TRUE): ?>
 

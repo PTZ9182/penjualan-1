@@ -25,7 +25,7 @@ window.Chart = function(context){
 		},
 		easeOutQuad: function (t) {
 			return -1 *t*(t-2);
-		},
+		}, 
 		easeInOutQuad: function (t) {
 			if ((t/=1/2) < 1) return 1/2*t*t;
 			return -1/2 * ((--t)*(t-2) - 1);
